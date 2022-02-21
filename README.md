@@ -6,8 +6,6 @@ https://lucasam1992.github.io/project-facebook-clone/
 
 ## Habilidades
 
-Neste projeto, verificaremos se você é capaz de:
-
   * Criar formulários em HTML;
 
   * Utilizar CSS Flexbox para criar layouts flexíveis;
