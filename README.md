@@ -1,57 +1,6 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto Página de Login do Facebook!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Atenção a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto à partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
----
-
-## Sumário
-
-- [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
-  - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-  - [Dicas](#dicas)
-- [Como desenvolver](#como-desenvolver)
-- [ESLint](#eslint)
-- [Requisitos do projeto](#requisitos-do-projeto)
-- [Lista de requisitos obrigatórios](#lista-de-requisitos-obrigatórios)
-  - [1. Crie uma barra azul na parte superior da página](#1-crie-uma-barra-azul-na-parte-superior-da-página)
-  - [2. Posicione o logotipo do Facebook no canto esquerdo na barra superior](#2-posicione-o-logotipo-do-facebook-no-canto-esquerdo-na-barra-superior)
-  - [3. Adicione um formulário de autenticação no canto direito da barra superior](#3-adicione-um-formulário-de-autenticação-no-canto-direito-da-barra-superior)
-  - [4. Crie uma classe no CSS](#4-crie-uma-classe-no-CSS)
-  - [5. Adicione um subcontainer para agrupar o rótulo e campo "E-mail ou telefone" dentro do formulário criado na etapa 3](#5-adicione-um-subcontainer-para-agrupar-o-rótulo-e-campo-"E-mail-ou-telefone"-dentro-do-formulário-criado-na-etapa-3)
-  - [6. Adicione um subcontainer para agrupar o rótulo e campo "Senha" dentro do formulário criado na etapa 3](#6-adicione-um-subcontainer-para-agrupar-o-rótulo-e-campo-"Senha"-dentro-do-formulário-criado-na-etapa-3)
-  - [7. Adicione um subcontainer com o botão "Entrar" dentro do formulário criado na etapa 3](#7-adicione-um-subcontainer-com-o-botão-"Entrar"-dentro-do-formulário-criado-na-etapa-3)
-  - [8. Crie um container com a classe main-content abaixo da barra azul para agrupar o conteúdo principal da página](#8-crie-um-container-com-a-classe-main-content-abaixo-da-barra-azul-para-agrupar-o-conteúdo-principal-da-página)
-  - [9. Crie um subcontainer para colocar o conteúdo do lado esquerdo](#9-crie-um-subcontainer-para-colocar-o-conteúdo-do-lado-esquerdo)
-  - [10. Crie um subcontainer para colocar o conteúdo do lado direito](#10-crie-um-subcontainer-para-colocar-o-conteúdo-do-lado-direito)
-  - [11. Crie um campo de entrada de texto para o nome do usuário dentro do formulário criado no requisito 10](#11-crie-um-campo-de-entrada-de-texto-para-o-nome-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [12. Crie um campo de entrada de texto para o sobrenome do usuário dentro do formulário criado no requisito 10](#12-crie-um-campo-de-entrada-de-texto-para-o-sobrenome-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [13. Crie um campo de entrada de texto para o celular ou email do usuário dentro do formulário criado no requisito 10](#13-crie-um-campo-de-entrada-de-texto-para-o-celular-ou-email-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [14. Crie um campo de entrada para senha do usuário dentro do formulário criado no requisito 10](#14-crie-um-campo-de-entrada-para-senha-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [15. Crie um campo de entrada para data de nascimento do usuário dentro do formulário criado no requisito 10](#15-crie-um-campo-de-entrada-para-data-de-nascimento-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [16. Crie um campo de entrada para gênero do usuário dentro do formulário criado no requisito 10](#16-crie-um-campo-de-entrada-para-gênero-do-usuário-dentro-do-formulário-criado-no-requisito-10)
-  - [17. Crie um botão para finalizar o cadastro dentro do formulário criado no requisito 10](#17-crie-um-botão-para-finalizar-o-cadastro-dentro-do-formulário-criado-no-requisito-10)
-  - [18. Validar se todos os campos foram preenchidos ao clicar no botão Cadastre-se](#18-validar-se-todos-os-campos-foram-preenchidos-ao-clicar-no-botão-cadastre-se)
-  - [19. Adicione um novo campo de texto no formulário se a pessoa usuária selecionar a opção `Personalizado` no campo Gênero](#19-adicione-um-novo-campo-de-texto-no-formulário-se-a-pessoa-usuária-selecionar-a-opção-personalizado-no-campo-gênero)
-  - [20. Substitua o conteúdo do container com a classe right-content se o formulário estiver completamente preenchido e validado](#20-substitua-o-conteúdo-do-container-com-a-classe-right-content-se-o-formulário-estiver-completamente-preenchido-e-validado)
-  - [Requisito Bônus](#requisito-bônus)
-- [Avisos finais](#avisos-finais)
-
----
+O projeto consiste no desenvolvimento da página inicial do Facebook.
 
 ## Habilidades
 
@@ -65,34 +14,6 @@ Neste projeto, verificaremos se você é capaz de:
 
   * Construir páginas que alteram o seu layout de acordo com a orientação da tela;
 
----
-
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/fundamentals/git) sempre que precisar!
-
-### O que deverá ser desenvolvido
-
-Neste projeto, você irá desenvolver a página inicial do Facebook. O projeto deve ser o mais parecido possível. Respeitando os requisitos, tente fazer uma cópia perfeita!
-
-### Desenvolvimento
-
-⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-O seu Pull Request deverá conter os arquivos `index.html`, `style.css` e `script.js`, que conterão seu código HTML, CSS e JavaScript, respectivamente.
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure o time de instrução.
-
-### Data de Entrega
-
-  - Será `1` dia de projeto.
-  - Data de entrega para avaliação final do projeto: `29/03/2021 - 14:00h`.
-
----
-
-## Instruções para entregar seu projeto:
 
 ### Antes de começar a desenvolver:
 
