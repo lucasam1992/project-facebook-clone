@@ -1,6 +1,8 @@
 # Boas vindas ao repositório do projeto Página de Login do Facebook!
 
-O projeto consiste no desenvolvimento da página inicial do Facebook.
+O projeto consiste no desenvolvimento da página inicial do Facebook. Segue abaixo, link do desenvolvimento da página clonada.
+
+https://lucasam1992.github.io/project-facebook-clone/
 
 ## Habilidades
 
